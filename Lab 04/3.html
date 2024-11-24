@@ -1,14 +1,21 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>3</title>
+    <title>Date of Birth</title>
 </head>
 <body>
-    <fieldset style="width: 15%;"><legend>Date Of Birth</legend>
-        <form method="get" action="3.php">
-            Date: <input type="date" name="date" value=""/><br>
-            <input type="button" value="Submit">
+    <fieldset style="width: 20%;">
+        <Legend><b>Date of Birth</b></Legend>
+        <form action="3.php" method="post">
+            <label for="day">dd</label>
+            <label for="month">mm</label><label for="space"></label>
+            <label for="year">yyy</label><br>
+            <input style="width: 10%;" type="text" name="day"><label for="">/</label>
+            <input style="width: 10%;" type="text" name="month"><label for="">/</label>
+            <input style="width: 10%;" type="text" name="year"><br>
+            <hr>           
+            <input type="submit" value="submit">
+
         </form>
-    </fieldset>
-    
 </body>
 </html>
