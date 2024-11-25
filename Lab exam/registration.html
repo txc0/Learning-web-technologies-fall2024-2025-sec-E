@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form method="post" action="registercheck.php">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" /><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" /><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone"   placeholder="Enter 10-digit phone number" />
+            <br><br>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address"  placeholder="Enter your address"></textarea>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" />
+            <br><br>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" name="confirm_password" id="confirm_password" placeholder="Re-enter your password" />
+
+            <input type="submit" name="Register" value="submit" />
+        </form>
+    </fieldset>
+</body>
+</html>
